@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid2X2;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    grid-column: span 2;
+    background-color: #344adb;
+    color: #ffffff;
+    padding: 20px;
+}
+
+dl {
+    background-color: #293fb9;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+strong {
+    background-color: #3c4de7;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    background-color: #345bdb;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+
+
+
